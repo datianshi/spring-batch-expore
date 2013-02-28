@@ -1,0 +1,1 @@
+java -classpath .:/Users/dings/work/lib/* org.springframework.batch.core.launch.support.CommandLineJobRunner org/springframework/batch/sample/football-job-context.xml footballJob -Dplayer.file.name=player.csv  -Dgames.file.name=games.csv
